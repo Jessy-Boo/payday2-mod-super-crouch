@@ -1,0 +1,15 @@
+{
+    "name" : "Super Crouch",
+    "description" : "Crouch so low that you cant be shot",
+    "author" : "Jessy-Boo",
+    "version" : "1.0",
+    "contact": "https://https://github.com/Jessy-Boo/payday2-mod-super-crouch",
+    "blt_version" : 2,
+    "priority" : 10,
+    "hooks" : [
+        {
+            "hook_id" : "lib/units/beings/player/playerdamage",
+            "script_path" : "main.lua"
+        }
+    ]
+}
